@@ -486,4 +486,5 @@ RunService.Heartbeat:Connect(function()
 	local t = tick()
 	local alpha = (math.sin(t * 1.5) + 1) / 2
 	mainStroke.Transparency = 0.2 + alpha * 0.4
+
 end)
